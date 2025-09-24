@@ -1,0 +1,4 @@
+csv-to-db.sh is a shell script that perform the concept of ETL is a simple example which performs the following tasks:
+1. Extract username, user id , home directory from /etc/passwd file
+2. Transform the the data and make it eligible to be a csv file
+3. Load data from csv file to a database table in template1 database in PostgreSQL

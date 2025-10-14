@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 from airflow.providers.standard.operators.python import PythonOperator
 from airflow.models import DAG
 
+#Absolute path in docker container
 main_path='/opt/airflow/data/'
 
 

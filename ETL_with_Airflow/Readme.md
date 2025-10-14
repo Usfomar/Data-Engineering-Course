@@ -1,5 +1,7 @@
 # Simple Pipeline in Apache Airflow
 
+
+
 > [!NOTE]
 > The process of installing Apache Airflow was quite complex, so I realized that the best way to install and use tools that require many dependencies and environment variable changes is to run them in Docker containers or with Docker Compose.  
 > Therefore, I decided to learn Docker—its architecture, the concepts behind it—and it really helped me. It was much more comfortable than installing Airflow directly on the local machine.  
@@ -8,16 +10,16 @@
 ### Introduction
 
 This simple project is an evidence that i learned and implemented (not deeply) the concepts and tools in this course. I used tools such as :
-
 - Apache Airflow.
 - Bash Scripts.
+- Python
 - The concept of data pipelines.
 - Monitoring the ETL process through Apache Airflow UI and CLI.
 
 ### Objectvies
 
 **Create a data pipeline that does the following:**
-
+(The project has 2 version one using Bash Operator and the second is implemented using Python Operator)
 1. Download data.
 2. Extract data with its different data types.
 3. Combine the files from different sources and unify its data types to one file.

@@ -1,0 +1,51 @@
+{"timestamp":"2025-10-05T17:09:12.479106Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-05T17:09:12.479526Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my-first-dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-05T17:09:12.496515Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.496649Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.496740Z","level":"info","event":"Current task name:check","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.496781Z","level":"info","event":"Dag name:my_first_python_etl_dag","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.497885Z","level":"info","event":"Check Phase","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.497947Z","level":"info","event":"root,0,/root","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.497982Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498012Z","level":"info","event":"daemon,1,/usr/sbin","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498041Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498069Z","level":"info","event":"bin,2,/bin","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498096Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498123Z","level":"info","event":"sys,3,/dev","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498150Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498176Z","level":"info","event":"sync,4,/bin","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498202Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498229Z","level":"info","event":"games,5,/usr/games","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498267Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498295Z","level":"info","event":"man,6,/var/cache/man","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498322Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498371Z","level":"info","event":"lp,7,/var/spool/lpd","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498402Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498430Z","level":"info","event":"mail,8,/var/mail","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498458Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498485Z","level":"info","event":"news,9,/var/spool/news","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498513Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498539Z","level":"info","event":"uucp,10,/var/spool/uucp","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498565Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498591Z","level":"info","event":"proxy,13,/bin","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498617Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498643Z","level":"info","event":"www-data,33,/var/www","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498670Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498696Z","level":"info","event":"backup,34,/var/backups","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498721Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498747Z","level":"info","event":"list,38,/var/list","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498773Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498799Z","level":"info","event":"irc,39,/run/ircd","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498833Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498861Z","level":"info","event":"_apt,42,/nonexistent","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498888Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498914Z","level":"info","event":"nobody,65534,/nonexistent","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498940Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498965Z","level":"info","event":"airflow,50000,/home/airflow","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498991Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.499017Z","level":"info","event":"default,1000,/home/airflow","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.499042Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.498400Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
+{"timestamp":"2025-10-05T17:09:12.508359Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.508518Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-10-05T17:09:12.508586Z","level":"info","event":"Task operator:<Task(PythonOperator): check>","logger":"task.stdout"}

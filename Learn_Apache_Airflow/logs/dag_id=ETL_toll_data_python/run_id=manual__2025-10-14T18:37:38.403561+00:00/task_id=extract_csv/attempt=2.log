@@ -1,0 +1,10 @@
+{"timestamp":"2025-10-14T18:37:52.144494Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-14T18:37:52.145220Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ETL_toll_data_python.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-14T18:37:52.181952Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-10-14T18:37:52.182421Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-10-14T18:37:52.185077Z","level":"info","event":"Current task name:extract_csv","logger":"task.stdout"}
+{"timestamp":"2025-10-14T18:37:52.185373Z","level":"info","event":"Dag name:ETL_toll_data_python","logger":"task.stdout"}
+{"timestamp":"2025-10-14T18:37:52.238596Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
+{"timestamp":"2025-10-14T18:37:52.253042Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-10-14T18:37:52.253198Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-10-14T18:37:52.253407Z","level":"info","event":"Task operator:<Task(PythonOperator): extract_csv>","logger":"task.stdout"}

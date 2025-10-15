@@ -1,0 +1,11 @@
+{"timestamp":"2025-10-14T18:39:31.321241Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-14T18:39:31.321915Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ETL_toll_data_python.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-14T18:39:31.349438Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-10-14T18:39:31.349550Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-10-14T18:39:31.349761Z","level":"info","event":"Current task name:download_unzip","logger":"task.stdout"}
+{"timestamp":"2025-10-14T18:39:31.349795Z","level":"info","event":"Dag name:ETL_toll_data_python","logger":"task.stdout"}
+{"timestamp":"2025-10-14T18:39:33.608961Z","level":"info","event":"File extracted successfully","logger":"task.stdout"}
+{"timestamp":"2025-10-14T18:39:33.609980Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}
+{"timestamp":"2025-10-14T18:39:33.625705Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-10-14T18:39:33.625797Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-10-14T18:39:33.626424Z","level":"info","event":"Task operator:<Task(PythonOperator): download_unzip>","logger":"task.stdout"}

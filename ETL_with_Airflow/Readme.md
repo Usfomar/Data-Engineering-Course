@@ -1,11 +1,17 @@
-# Simple Pipeline in Apache Airflow
-
+# Learn Apache Airflow
 
 
 > [!NOTE]
 > The process of installing Apache Airflow was quite complex, so I realized that the best way to install and use tools that require many dependencies and environment variable changes is to run them in Docker containers or with Docker Compose.  
 > Therefore, I decided to learn Docker—its architecture, the concepts behind it—and it really helped me. It was much more comfortable than installing Airflow directly on the local machine.  
 > This project is implemented using Apache Airflow in Docker Compose (since Airflow runs multiple services, Docker Compose is the right way to install and manage it).
+
+> [!NOTE]
+> This directory contains all DAGs i implement for learning Apache Airflow, But what i detailed is the final project and all other practices are here too.
+> All you should make is to download directory and build and start docker compose `docker compose up` then open Airflow UI and trigger dags.
+
+
+
 
 ### Introduction
 

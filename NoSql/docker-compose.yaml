@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  mongo:
+    image: mongo:7.0
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: omar
+      MONGO_INITDB_ROOT_PASSWORD: usfomar
+    ports:
+      - 27017:27017
+    volumes:
+      - mongoData:/data/db
+volumes:
+  mongoData:
+    driver: local

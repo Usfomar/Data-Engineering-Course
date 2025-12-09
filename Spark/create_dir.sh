@@ -3,8 +3,7 @@
 dir_name=$1
 
 if [ -d $dir_name ];then
-    rm -r $dir_name;
-    mkdir $dir_name;
+    echo "Directory Exists"
 else
     mkdir $dir_name
 fi

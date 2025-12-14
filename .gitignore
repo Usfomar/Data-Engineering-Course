@@ -1,7 +1,7 @@
-./Spark/spark-env
+./Spark/spark-env/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-../SparkML-practice-project/.vscode
+SparkML-practice-project/.vscode/

@@ -1,4 +1,4 @@
-./data
-./saved_models
-../spark-env
-./.vscode
+data/
+saved_models/
+spark-env/
+.vscode/
